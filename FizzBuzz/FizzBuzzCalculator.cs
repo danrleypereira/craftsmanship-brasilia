@@ -8,10 +8,9 @@ namespace FizzBuzz
         public string[] returnResult(int width)
         {
             var strings = new string[100];
-            for(int remainingNumbers = width; remainingNumbers > 0; remainingNumbers--)
-            {
-                strings[remainingNumbers - 1] = check(remainingNumbers);
-            }
+            int remainingNumbers = width;
+            while(remainingNumbers > 0)
+                strings[remainingNumbers-1] = check(remainingNumbers--);
             return strings;
         }
 
