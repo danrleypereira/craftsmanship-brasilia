@@ -1,4 +1,3 @@
-using System.Reflection.PortableExecutable;
 using FizzBuzz;
 
 namespace FizzBuzz.Tests;
