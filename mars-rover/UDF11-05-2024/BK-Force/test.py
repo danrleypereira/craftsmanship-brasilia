@@ -1,3 +1,9 @@
+'''
+    pair programming duet:
+    - Guilherme Amaral
+    - John Park
+'''
+
 import pytest
 
 from main import Rover

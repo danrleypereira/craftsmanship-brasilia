@@ -1,3 +1,9 @@
+'''
+    pair programming duet:
+    - Lucas Vieira
+    - Polyan Cunha
+'''
+
 import pytest
 
 import main
